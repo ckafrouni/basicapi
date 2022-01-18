@@ -1,13 +1,13 @@
 from setuptools import setup, find_packages
 
 
-VERSION = '0.0.1'
+VERSION = '0.0.6'
 DESCRIPTION = ''
 LONG_DESCRIPTION = ''
 
 # Setting up
 setup(
-    name="basicapi",
+    name="bapi-fw",
     version=VERSION,
     author="Christophe Kafrouni",
     author_email="<chris.kafrouni@gmail.com>",

@@ -8,7 +8,7 @@ from .request_handler import ReqHandler
 class API():
     def __init__(self) -> None:
         self.server: HTTPServer
-        self.serverinfo: Dict
+        self.serverinfo: Dict = {}
         self.routes = {}
 
     def get(self, path: str, status_code: int = 200):  # , name: Optional[str]):
